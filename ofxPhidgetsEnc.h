@@ -5,7 +5,7 @@
 
 //// ofxaddon extension by Naoto HIEDA, 2014
 
-//// simple phidgetEncoder positiont readout by Brecht Debackere 2014
+//// simple phidgetEncoder positiont readout by Brecht Debackere, 2015
 
 
 #include <stdio.h>
