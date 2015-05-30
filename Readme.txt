@@ -11,5 +11,3 @@ See the ofxExample folder for a simple readout example.
 2. add the ofxPhidgetsEnc.h and ofxPhidgetsEnc.cpp files to your project
 3. add the phidget21.framework & phidget21.h to your project
 
-
-

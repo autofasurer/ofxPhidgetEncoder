@@ -77,7 +77,7 @@ void ofxPhidgetsEncoder::init()
 	
 	//get the program to wait for an encoder  device to be attached
 	printf("Waiting for encoder to be attached....");
-	if((result = CPhidget_waitForAttachment((CPhidgetHandle)enc, 1000)))
+	if((result = CPhidget_waitForAttachment((CPhidgetHandle)enc, 10000)))
 	{
 		CPhidget_getErrorDescription(result, &err);
 		printf("Problem waiting for attachment: %s\n", err);
